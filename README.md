@@ -35,6 +35,8 @@
 - Builder Pattern
 - Observer Pattern
 - Facade Pattern
+- Template Pattern
+- (pluggable)Adapter Pattern
 - ...
 
 -----------
