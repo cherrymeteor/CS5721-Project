@@ -4,14 +4,14 @@
 `for fiddler`
 -DproxySet=true -DproxyHost=127.0.0.1 -DproxyPort=8888
 
-####architecture
+#### architecture
 - unique central server
 - client of self service
 - client of atm
 - client of staff
 - client of admin
 
-####techniques
+#### techniques
 - Maven
 - MVC pattern
 - gRPC incl. Protobuf & cert authentication
@@ -20,16 +20,16 @@
 - JUnit
 - JWT authentication based on gRPC(Mar 18, 2019)
 
-####further
+#### further
 - use mapper to avoid big amounts of set get methods. like `https://github.com/BAData/protobuf-converter`
 - project not finished.
 
-####Notice
+#### Notice
 - **use local cert in local testing environment** 
 - adjust every module language level
 - before running the project run maven `generate sources and update folders for all projects`
 
-####Design Pattern
+#### Design Pattern
 - Singleton Pattern
 - Factory Pattern
 - Builder Pattern
